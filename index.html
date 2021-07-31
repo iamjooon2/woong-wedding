@@ -5,8 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <title>🤵🏻👰🏻 수웅&효진, 결혼합니다</title>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<script type = "text/javascript" src = "script.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f8580fd3d79c1d0628618ed2d62e0c28"></script>
-<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+    <!-- Demo styles -->
+    <style>   
+    .swiper-container {
+      width: 690px;
+      height: auto;
+      padding:30px 0;
+      border:5px solid silver;
+      border-radius:7px;
+      box-shadow:0 0 20px #ccc inset;
+    }
+    .swiper-slide {
+      width : 69px;
+      text-align:center;
+      display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+      align-items:center; /* 위아래 기준 중앙정렬 */
+      justify-content:center; /* 좌우 기준 중앙정렬 */
+    }
+    .swiper-slide img {
+      box-shadow:0 0 5px #555;
+    }
+
+    </style>
 </head>
 
 <body>
@@ -24,96 +49,119 @@
           </div>
           
           <div class="wPhone" style="margin-top: 25px;">
-            <div class="wTitle">신부에게 연락하기</div>
+            <div class="wTitle">
+              신부에게 연락하기
+            </div>
               <a href='tel:010-3325-4971'>
-                <div class="telephoneImage" 
-                     style="background-color: #f79e9e"></div>
+                <div class="telephoneImage" style="background-color: #f79e9e"></div>
               </a>
           </div>
-      
       </div>
       
       <div class="subTitle">
         혼주에게 연락하기
       </div>
       <div class="phone">
-      
         <div class="hostList">
-            <div class="Title">신랑측 혼주</div>
-              
-              <div class="hostName">
-                <span>아버지</span> 정명석</div>
+            <div class="Title">
+              신랑측 혼주
+            </div>
+            <div class="hostName">
+              <span> 아버지</span> 정명석
+            </div>
               <a href='tel:010-3706-0415'>
-                <div class="hostTel" >
-
-                </div>
+                <div class="hostTel"></div>
               </a>
-              <div class="hostName"><span>어머니</span> 백영옥</div>
+            <div class="hostName">
+                <span>어머니</span> 백영옥
+            </div>
               <a href='tel:010-2378-0415'>
                 <div class="hostTel"></div>
               </a>
-          </div>
-          
-          <div class="hostList">
-            <div class="hostTitle" style="color: #f79e9e">신부측 혼주</div>
-              <div class="hostName">
-                <span>아버지</span>
-                한영식
-              </div>
-              <a href='tel:010-4402-8055'>
-                <div class="hostTel" style="background-color: #f79e9e">
-                </div>
-              </a>
-              <div class="hostName">
-                <span>어머니</span> 
-                최복순
-              </div>
-              <a href='tel:010-3327-4971'>
-                <div class="hostTel" style="background-color: #f79e9e">
-                </div>
-              </a>
         </div>
-      
+          
+        <div class="hostList">
+          <div class="hostTitle" style="color: #f79e9e">
+            신부측 혼주
+          </div>
+          <div class="hostName">
+            <span>아버지</span> 한영식
+          </div>
+          <a href='tel:010-4402-8055'>
+            <div class="hostTel" style="background-color: #f79e9e"></div>
+          </a>
+          <div class="hostName">
+            <span>어머니</span> 최복순
+          </div>
+          <a href='tel:010-3327-4971'>
+            <div class="hostTel" style="background-color: #f79e9e"></div>
+          </a>
+        </div>
       </div>
 
       <div class="subTitle">웨딩갤러리</div>
-      
-      <div class="subTitle" 
-            style="background-color: #fff;">
-        오시는길
-      </div>
-      
-      <div id="map" 
-        style="width:100%; height:400px;">
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/1.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/2.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/3.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/4.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/5.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/6.jpg" style="max-width: 690px; height: auto;" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/7.jpg" style="max-width: 690px; height: auto;"/>
+          </div>
+        </div>
         
+        <div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+      	<div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+
+        <div class="swiper-pagination"></div>
+     </div>
+
+      <div class="subTitle" style="background-color: #fff;">오시는길</div>
+      
+      <div id="map" style="width:100%; height:400px;"> </div>
+       
+      <div class="subContent">
+        <strong>2021년 8월 21일 토요일 오후 4시 20분<br>
+          <span style="font-size: 18px;">
+            루이비스컨벤션 송파문정점 / 아모리스홀</span></strong><br>
+          주소 : 서울특별시 송파구 문정동 법원로9길 H비즈니스파크 루이비스컨벤션웨딩홀 <br><br>
+          
+          <strong>ㆍ셔틀버스 이용시</strong><br>
+          <div class="miniContent">8호선 문정역 3번출구 후방 70m 셔틀버스 10분 배차 운행</div>
+          
+          <strong>ㆍ버스 이용시<small> (문정로데오거리 하차)</small></strong><br>
+          <div class="miniContent">
+            - 일반버스(초록) : 30,30-1,32,70,100,116,119<br>
+              - 간선버스(파랑) : 302,303,320,333,350,360,362<br>
+              - 지선버스(초록) : 3012<br>
+              - 광역버스(빨강) : 9403,M6336<br>
+              - 직행좌석버스(빨강) : 5001,1009,1112,1117,1650
+          </div>
+          
+          <strong>ㆍ자가용 이용시</strong><br>
+          <div class="miniContent">
+            - 네이게이션 이용시 : "루이비스컨벤션 송파문정점" 또는 "주소"입력<br>
+              - 웨딩홀 건물(H비지니스파크) 내 A,B동 C,D동 B1~B4층 1300여대 주차가능
+          </div>
       </div>
        
-       <div class="subContent">
-       		<strong>2021년 8월 21일 토요일 오후 4시 20분<br>
-            <span style="font-size: 18px;">
-              루이비스컨벤션 송파문정점 / 아모리스홀</span></strong><br>
-            주소 : 서울특별시 송파구 문정동 법원로9길 H비즈니스파크 루이비스컨벤션웨딩홀 <br><br>
-            
-            <strong>ㆍ셔틀버스 이용시</strong><br>
-            <div class="miniContent">8호선 문정역 3번출구 후방 70m 셔틀버스 10분 배차 운행</div>
-            
-            <strong>ㆍ버스 이용시<small> (문정로데오거리 하차)</small></strong><br>
-            <div class="miniContent">
-            	- 일반버스(초록) : 30,30-1,32,70,100,116,119<br>
-                - 간선버스(파랑) : 302,303,320,333,350,360,362<br>
-                - 지선버스(초록) : 3012<br>
-                - 광역버스(빨강) : 9403,M6336<br>
-                - 직행좌석버스(빨강) : 5001,1009,1112,1117,1650
-            </div>
-            
-            <strong>ㆍ자가용 이용시</strong><br>
-            <div class="miniContent">
-            	- 네이게이션 이용시 : "루이비스컨벤션 송파문정점" 또는 "주소"입력<br>
-                - 웨딩홀 건물(H비지니스파크) 내 A,B동 C,D동 B1~B4층 1300여대 주차가능
-            </div>
-       </div>
-       
-       <div class="subTitle">마음 전해 주실 곳</div>
+      <div class="subTitle">마음 전해 주실 곳</div>
        
        <div class="subContent">
        		<strong style="color: #78c0e9">신랑측 | </strong> 농협 167-02-085052(정명석)<br>
@@ -159,6 +207,25 @@
 			  el: ".swiper-pagination",
 			},
 		});
-       </script>
+
+    new Swiper('.swiper-container', {
+    // 스크롤바 설정하기
+    scrollbar : {
+      el : '.swiper-scrollbar',
+      draggable: true,
+    },
+
+    pagination : { // 페이징 설정
+      el : '.swiper-pagination',
+      clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
+    },
+    navigation : { // 네비게이션 설정
+      nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+      prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+    },
+    });
+
+  </script>
+  
 </body>
 </html>

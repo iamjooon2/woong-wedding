@@ -1,7 +1,7 @@
 # 모바일 청첩장 레파지토리
 
 
-> ~~마음만은 비스포크~~
+~~마음만은 비스포크~~
 
 
 참여
@@ -16,5 +16,7 @@
 - kakaomap API
 - swiper
 - github pages
+
+
 
 [청첩장 링크](junheeyeap.github.io/woong-wedding)

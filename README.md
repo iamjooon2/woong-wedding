@@ -19,4 +19,4 @@
 
 
 
-[청첩장 링크](junheeyeap.github.io/woong-wedding)
+[청첩장 링크](https://junheeyeap.github.io/woong-wedding/)
